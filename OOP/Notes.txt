@@ -1,0 +1,11 @@
+Obeject Oriented Programming 
+- Abstraction -> Hiding complex things from user{two ways 1. using abstract keyword; 2. using interfaces}
+- Encapsulation ->
+- Inheritance -> {
+    1.Multilevel
+    2. Hierarchical
+    3. }
+- Polymorphism -> Defining same named functions in the same class having different parameters
+Compile time polymorphism = runtime polymorphism
+- Packages 
+- getters and setters
