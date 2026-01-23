@@ -48,5 +48,9 @@ public class Call{
         e.getData(); // Call getData
         e.showBonus(); // Call showBonus
         sc.close(); // Close the Scanner after use
+
+
+
+        
     }
 }
