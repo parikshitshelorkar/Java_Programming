@@ -42,6 +42,7 @@ public class Call{
         float salary = sc.nextInt();
         System.out.println();
         System.out.println("Enter your Gender: ");
+        sc.nextLine();
         String gender = sc.nextLine();
 
         Employee e = new Employee(empId, name, salary, gender );
