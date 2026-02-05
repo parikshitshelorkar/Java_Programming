@@ -23,7 +23,6 @@ public class Employee {
         this.empName = empName;
         this.department = department;
         this.salary = salary;
-
         return this;
     }
 
@@ -39,7 +38,6 @@ public class Employee {
         System.out.println("Department: " + this.department);
         System.out.println("Salary: " + this.salary);
         System.out.println("--------------x------------");
-
     }
 
     double calculateAnnualSalary() {
@@ -59,10 +57,6 @@ public class Employee {
         System.out.println("4. Show Annual Salary");
         System.out.println("5. Exit");
         
-        
-
-
-    
         System.out.print("Enter choice: ");
         int choice = sc.nextInt();
 
