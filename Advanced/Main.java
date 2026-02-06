@@ -1,4 +1,4 @@
-
+// This code demonstrates the use of Java Reflection to dynamically load a class, create an instance, and invoke its methods at runtime.
 import java.lang.reflect.Method;
 
 // Student class with two methods
