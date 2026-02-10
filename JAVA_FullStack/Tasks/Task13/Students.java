@@ -1,7 +1,7 @@
 // import java.util.Scanner;
 
 public class Students {
-    static String cname = "Sinhgad Institutes";
+    static String cname = "Sinhgad College of Engineering";
     static int totalStudents = 3;
     static float passingMarks = 28;
 
@@ -14,6 +14,7 @@ public class Students {
         this.sname = name;
         this.rollno = rollno;
         this.marks = marks;
+        
     }
 
     public void gradeCalculation() {
@@ -49,10 +50,11 @@ public class Students {
         Students s2 = new Students("Rahul", 2, 65);
         Students s3 = new Students("Sneha", 3, 45);
 
-        //
+        //obj creation
         s1.gradeCalculation();
         s2.gradeCalculation();
         s3.gradeCalculation();
+        // Displaying the details of students
         s1.displayDetails();
         s2.displayDetails();
         s3.displayDetails();
