@@ -51,6 +51,7 @@ class CollectionDemo {
         System.out.println("Removing Top: " + pq.poll());
         System.out.println("Next Top: " + pq.peek());
 
+
         // =======================
         // 5️⃣ Using Iterator
         // =======================
@@ -59,5 +60,55 @@ class CollectionDemo {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
+        Queue<Integer> q1 = new LinkedList<Integer>();
+        Queue<Integer> q2 = new ArrayDeque<Integer>();
+        Queue<Integer> q3 = new PriorityQueue<Integer>();
+
+        ArrayDeque<Integer> q4 = new ArrayDeque<Integer>();
+
+
+        q2.add(20);
+        q2.add(30);
+        q2.add(null);
+        System.out.println("\nQueue using ArrayDeque: " + q2);
+
+
+        q4.add(20);
+        q4.addLast(90);
+        q4.add(30);
+        q4.add(10);
+        q4.addFirst(70);
+        q4.add(50);
+        q4.addFirst(80);
+        System.out.println(q4);
+
+        q3.remove();
+        System.out.println(q4);
+        
+        q4.removeLast();
+        System.out.println(q4);
+// ----------------------------------------------------------------------------------
+        //when you don't want duplicates and order doesn't matter, use HashSet
+
+        HashSet<String> hs = new HashSet<String>(); 
+        // LinkedList<String> hs = new LinkedList<String>();
+        // TreeSet<String> hs = new TreeSet<String>();
+
+        hs.add("Sagar");
+        hs.add("Amol");
+        hs.add("Amit");
+        hs.add("Sagar");   // Duplicate ignored
+        hs.add("parikshit");
+        hs.add(null);      // HashSet allows one null value
+        hs.add(null);      // Duplicate null ignored
+        
+
+        System.out.println("\nHashSet: " + hs);
+
+
+
+
+
     }
 }
